@@ -30,6 +30,8 @@ checkBtn.addEventListener("click", function(){
         correctAns.textContent = SECRET_NUMBER;
         correctAns.style.backgroundColor  = "#222";
         correctAns.style.color  = "#fff";
+        span.style.display = "none";
+        inputNumber.style.border = "none";
         document.body.style.backgroundColor  = "aquamarine";
         document.body.style.color = "#222";
 
