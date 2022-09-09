@@ -5,7 +5,7 @@ const guessingText = document.querySelector(".guessing-text");
 const score = document.querySelector(".score");
 const highScore = document.querySelector(".high-score");
 const playAgain = document.querySelector(".play-again");
-const span = document.querySelector("span");
+const span = document.querySelector(".wrong");
 
 
 let SECRET_NUMBER = Math.trunc(Math.random() * 20 + 1);
